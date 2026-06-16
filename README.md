@@ -1,3 +1,3 @@
 # Proyecto
 
-[Ver guía completa](PasoaPaso.md)
+[Ver paso a paso](PasoaPaso.md)
