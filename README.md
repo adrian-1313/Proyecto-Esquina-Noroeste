@@ -1,3 +1,3 @@
-# Proyecto : Esquina Noroeste
+# Proyecto: Esquina Noroeste
 
 [Ver paso a paso](PasoaPaso.md)
