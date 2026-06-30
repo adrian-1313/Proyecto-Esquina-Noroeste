@@ -2,4 +2,4 @@
 
 [Ver paso a paso](PasoaPaso.md)
 
-[Entrar al proyecto](ProyectoEN_HTML/index.html)
+[Entrar al proyecto](index.html)
