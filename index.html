@@ -1,14 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Bienvenido a mi proyecto</title>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+
+    <style>
+        body {
+            background-image: url("imgs/bg2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        .card {
+            display: inline-block;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .opcion {
+            margin: 20px;
+            padding: 20px 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .opcion h3 {
+            margin: 0 0 12px 0;
+        }
+
+        .btn {
+            margin-top: 8px;
+            padding: 10px 22px;
+            border-radius: 12px;
+            border: none;
+            background: black;
+            color: #ddd;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .logo-corner {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        .logo-corner img {
+            width: 80px;
+            height: auto;
+        }
+    </style>
 </head>
-<body style="text-align: center; margin-top: 50px;">
-    <h1>Proyecto Esquina Noroeste</h1>
-    <p>Haz clic en el botón para comenzar:</p>
-    
-    <a href="ProyectoEN_HTML/index.html" style="...">
-        Entrar al Proyecto
-    </a>
+
+<body>
+
+    <div class="logo-corner">
+        <img src="imgs/logoEESTN2.png" alt="Logo">
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h1>Bienvenido</h1>
+            <h3>Seleccione un método</h3>
+
+            <div class="card opcion">
+                <h3>Esquina Noroeste</h3>
+                <button class="btn" onclick="location.href='Esquina_N.html'">Seleccionar</button>
+            </div>
+
+            <div class="card opcion">
+                <h3>Método de Menor Costo</h3>
+                <button class="btn" onclick="location.href='MenorCosto.html'">Seleccionar</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
